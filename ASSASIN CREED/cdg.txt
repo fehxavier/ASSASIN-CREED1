@@ -5,9 +5,9 @@
 
 <body>
 	<div class="card011">
-		<img src="./assets/Origins.jpg" alt="">
-		<h3></h3>
-		<p></p>
+		<img src="./assets/Origins.jpg" alt="#">
+		
+		
 	</div>
 
 

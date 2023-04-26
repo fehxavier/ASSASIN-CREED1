@@ -1,65 +1,98 @@
 body {
-    background-color: #dfe6e9;
+  background-image: url(./assets/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
 }
 
 .logo {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .logo h1 {
-    font-size: 50px;
-    font-family: 'Exo', sans-serif;
+  font-size: 50px;
+  font-family: 'Exo', sans-serif;
 }
+
+.container-cards:hover div,
+.container-cards:hover div:nth-child(2) {
+  animation-play-state: paused;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
 
 .container-cards {
-    display: flex;
-    -webkit-transform: perspective(900px);
-    -webkit-transform-style: preserve-3d;
-    gap: 30px;
-}
-
-.container-groups {
-
-}
-
-.card {
-    text-align: center;
-    width: 341px;
-    height: 448px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    transition: .6s;
-
-    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-}
-
-.card:hover {
-    transform: rotatex(0deg);
-    transform: rotatez(0deg);
-    transition: .6s;
+  display: flex;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 50px;
+  gap: 50px;
+  perspective: 900px;
 
 }
 
-.card img {
-    transform: translateY(0px);
-    width: 341px;
-    height: 448px;
+.container-cards div img {
+  transform: translateY(0px);
+  max-width: 300px;
+  height: 448px;
+  transform: rotatex(25deg) translatey(-100px) translatez(-200px);
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+
 
 }
 
-  .card div img {
-    margin:  25px;
-    max-width: 3px;
-    border: px solid transparent;
-    transition: .25s;
-    animation: animate 40s linear infinite;
-  }
-  
-  .card div img:hover {
-    border: px solid #fff;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  }
-  
-  
+
+.container-cards div img:hover {
+  border: 0px solid #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: rotatex(0deg) translatez(-150px) scale(1.2);
+  transition: .8s;
+
+}
+
+.container-cards div {
+  display: flex;
+  transform-style: preserve-3d;
+  animation: animate 40s linear infinite;
+  animation-delay: -40.0s;
+  gap: 50px;
+
+}
+
+.container-cards div:nth-child(2) {
+  animation: animate2 40s linear infinite;
+  animation-delay: -20.0s;
+
+}
+
+.container-cards:hover div img {
+  opacity: 0.05;
+  filter: (5px);
+  box-shadow: 0 20px 40px rgb(255, 255, 255);
+}
+
+.container-cards div img:hover {
+  opacity: 100;
+  filter: blur(0px);
+}

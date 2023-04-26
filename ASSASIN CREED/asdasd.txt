@@ -505,5 +505,3 @@ body {
     transform: translateY(0px);
     width: 341px;
     height: 448px;
-
-}

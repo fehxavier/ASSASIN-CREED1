@@ -1,0 +1,509 @@
+body {
+    background-color: #dfe6e9;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 50px;
+    font-family: 'Exo', sans-serif;
+}
+
+.container-cards {
+    display: flex;
+    -webkit-transform: perspective(900px);
+    -webkit-transform-style: preserve-3d;
+    gap: 30px;
+}
+
+.container-groups {
+
+}
+
+.card1 {
+    text-align: center;
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card1:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card1 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card2 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card2:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card2 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card3 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card3:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card3 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card4 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card4:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card4 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card5 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card5:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card5 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card6 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card6:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card6 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card7 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card7:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card7 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card8 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card8:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card8 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card9 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card9:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card9 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card9 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card9:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card9 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card10 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card10:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card10 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card11 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card11:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card11 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card12 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card12:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card12 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card13 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card13:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card13 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card14 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card14:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card14 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card15 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card15:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card15 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card16 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card16:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.card16 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}
+
+.card17 {
+    text-align: center;
+
+    width: 341px;
+    height: 448px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card17:hover {
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
+    transition: .6s;
+
+}
+
+.imgscroo .card17 img {
+    transform: translateY(0px);
+    width: 341px;
+    height: 448px;
+
+}

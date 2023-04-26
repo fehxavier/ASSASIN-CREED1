@@ -1,0 +1,82 @@
+
+body {
+  background-color: #dfe6e9;
+  -webkit-transform: perspective(900px);
+  -webkit-transform-style: preserve-3d;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 50px;
+  font-family: 'Exo', sans-serif;
+}
+.imgScroll div {
+  display: flex;
+  animation: animate 40s linear infinite;
+  animation-delay: -40s;
+}
+
+.imgScroll div:nth-child(2) {
+  animation: animate2 40s linear infinite;
+  animation-delay: -20s;
+}
+
+.imgScroll:hover div,
+.imgScroll:hover div:nth-child(2) {
+  animation-play-state: paused;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.imgScroll {
+  position: absolute;
+  left: 0;
+  padding: 60px 0;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.imgScroll div img {
+  margin: 0 25px;
+  max-width: 300px;
+  border: 10px solid transparent;
+  transition: 0.25s;
+}
+
+.imgScroll div img:hover {
+  border: 10px solid #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.imgScroll:hover div img {
+  opacity: 0.05;
+  filter: blur(5px);
+}
+
+.imgScroll div img:hover {
+  opacity: 1;
+  filter: blur(0px);
+}
